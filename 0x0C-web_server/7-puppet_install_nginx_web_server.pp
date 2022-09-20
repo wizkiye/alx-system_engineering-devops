@@ -13,7 +13,7 @@ package {'nginx':
 
 file {'/var/www/html/index.html':
   ensure  => 'present',
-  content => 'Holberton School',
+  content => 'Hello World!',
   require => Package['nginx']
 }
 
